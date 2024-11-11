@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imaginer.ai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1 class="heading">Imaginer.ai</h1>
+        </div>
+        <div class="menu">
+
+
+            <ul>Home</ul>
+            <ul>Contact Us</ul>
+            <ul>About Us</ul>
+
+        </div>
+    </div>
+    <div class="desc">
+        <h1>This is a text-to-image generator</h1>
+        <p> You can generate images from scratch with its text description.</p>
+    </div>
+
+    <div class="generate">
+        <div class="input">
+            <label class="inputText">Create an image from text prompt:</label>
+            <input class="inputBox" type="text" name="" id="input" placeholder="Enter the prompt here" >
+            <button id="btn">Generate Image</button>
+        </div>
+
+        <div class="output">
+            <div id="spinner" class="spinner"></div>
+            <img id="image" src="icon.png" alt="" >
+            <div class="outBtn"><button>Downlaod</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
